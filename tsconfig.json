@@ -1,6 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react-native", 
+    
+    // (Opcional, mas útil) Adiciona a flag para permitir JSX em arquivos .ts
+    "allowJsxInTsFiles": true,
     "strict": true,
     "paths": {
       "@/*": [
